@@ -8,7 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class authController {
 
-    @RequestMapping("/login")
+    //@RequestMapping("/login")
+    public void login() {
+        // Implement login logic here
+    }
+
+    //@RequestMapping("/register")
+    public void register() {
+        // Implement registration logic here
+    }
 
 }
 
